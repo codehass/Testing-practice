@@ -1,5 +1,5 @@
 function  stringLength(string) {
-  if(string.length >= 1 && string.length < 10){
+  if(string.length >= 1 && string.length <= 10){
     return string.length;
   }else{
     return 'Erorr';
@@ -19,7 +19,7 @@ class calculator {
   }
   
   //Add methode
-  add(a,b){
+  add(){
     return this.a + this.b;
   }
   
@@ -45,7 +45,7 @@ class calculator {
 }
 
 function capitalize(string) {
-  return str2 = string.charAt(0).toUpperCase() + string.slice(1);
+  return string.charAt(0).toUpperCase() + string.slice(1);
 
 }
 

@@ -101,8 +101,8 @@ describe('Subtract two numbers', () => {
     const output = -1;
 
     //Act
-    const addition = new calculator(argA,argB);
-    const result = addition.subtract();
+    const sub = new calculator(argA,argB);
+    const result = sub.subtract();
 
     //Assert
     expect(result).toBe(output);
@@ -115,8 +115,8 @@ describe('Subtract two numbers', () => {
     const output = -10;
 
     //Act
-    const addition = new calculator(argA,argB);
-    const result = addition.subtract();
+    const sub = new calculator(argA,argB);
+    const result = sub.subtract();
 
     //Assert
     expect(result).toBe(output);
@@ -129,8 +129,8 @@ describe('Subtract two numbers', () => {
     const output = 24;
 
     //Act
-    const addition = new calculator(argA,argB);
-    const result = addition.subtract();
+    const sub = new calculator(argA,argB);
+    const result = sub.subtract();
 
     //Assert
     expect(result).toBe(output);
@@ -147,8 +147,8 @@ describe('Divide two numbers', () => {
     const output = 0.5;
 
     //Act
-    const addition = new calculator(argA,argB);
-    const result = addition.divide();
+    const divide = new calculator(argA,argB);
+    const result = divide.divide();
 
     //Assert
     expect(result).toBe(output);
@@ -161,8 +161,8 @@ describe('Divide two numbers', () => {
     const output = 2;
 
     //Act
-    const addition = new calculator(argA,argB);
-    const result = addition.divide();
+    const divide = new calculator(argA,argB);
+    const result = divide.divide();
 
     //Assert
     expect(result).toBe(output);
@@ -175,8 +175,8 @@ describe('Divide two numbers', () => {
     const output = 'Impossible';
 
     //Act
-    const addition = new calculator(argA,argB);
-    const result = addition.divide();
+    const divide = new calculator(argA,argB);
+    const result = divide.divide();
 
     //Assert
     expect(result).toBe(output);
@@ -193,8 +193,8 @@ describe('Multiply two numbers', () => {
     const output = 20;
 
     //Act
-    const addition = new calculator(argA,argB);
-    const result = addition.multiply();
+    const mul = new calculator(argA,argB);
+    const result = mul.multiply();
 
     //Assert
     expect(result).toBe(output);
@@ -207,8 +207,8 @@ describe('Multiply two numbers', () => {
     const output = 32;
 
     //Act
-    const addition = new calculator(argA,argB);
-    const result = addition.multiply();
+    const mul = new calculator(argA,argB);
+    const result = mul.multiply();
 
     //Assert
     expect(result).toBe(output);
@@ -221,8 +221,8 @@ describe('Multiply two numbers', () => {
     const output = 0;
 
     //Act
-    const addition = new calculator(argA,argB);
-    const result = addition.multiply();
+    const mul = new calculator(argA,argB);
+    const result = mul.multiply();
 
     //Assert
     expect(result).toBe(output);
